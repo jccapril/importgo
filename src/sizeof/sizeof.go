@@ -13,6 +13,8 @@ func  main()  {
 		a64bit int64 = 64
 	)
 
+	fmt.Println(a32bit == int32(a64bit))
+
 	// 与操作系统有关，32位操作系统输出为4 64位操作系统输出为8
 	fmt.Println(unsafe.Sizeof(a))
 
