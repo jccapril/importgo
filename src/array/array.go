@@ -2,6 +2,12 @@ package main
 
 import "fmt"
 
+
+type Student struct {
+	Age int
+	name string
+}
+
 func main()  {
 
 	// 定义长度为5的数组
@@ -40,6 +46,7 @@ func main()  {
 		}
 	}
 	fmt.Println("twoD:", twoD)
+
 }
 
 func printHelper(name string, arr [5]int)  {
